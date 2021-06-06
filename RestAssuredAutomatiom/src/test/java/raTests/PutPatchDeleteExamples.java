@@ -12,6 +12,8 @@ import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
 
+//Lesson 3:
+
 public class PutPatchDeleteExamples {
 	
 	@Test

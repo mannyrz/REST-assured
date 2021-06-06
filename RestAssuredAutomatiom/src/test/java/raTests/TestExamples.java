@@ -12,13 +12,13 @@ import static org.hamcrest.Matchers.*;
 
 public class TestExamples {
 	
+	// Lesson One : 
+	//https://www.udemy.com/course/rest-assured-java-framework-step-by-step-for-beginners/learn/lecture/24123340#overview
+	
 	
 	@Test
 	public void test_1() {
-		
-		// Lesson One : 
-		//https://www.udemy.com/course/rest-assured-java-framework-step-by-step-for-beginners/learn/lecture/24123340#overview
-		
+				
 		Response response = get("https://reqres.in/api/users?page=2");
 		//Response response = RestAssured.get("https://reqres.in/api/users?page=2");
 		
